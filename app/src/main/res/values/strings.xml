@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">App Biblioteca</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Libreria App</string>
+    <string name="nav_header_subtitle">Carlos D.gil garcia</string>
+    <string name="nav_headgiter_desc">Navigation header</string>
+    <string name="action_settings">Ayuda</string>
+    <string name="title_activity_secciones">Segunda Actividad</string>
+
+    <string name="ToolsActivity">Bienvenido a las herramientas</string>
+    <string name="GalleryActivity">Bienvenido a la Galeria</string>
+    <string name="GalleryText">Escribe algo!!!</string>
+
+
+    <!-- main_menu-->
+    <string name="lanzador">Lanzador</string>
+    <string name="lanzador2">Lanzador2</string>
+    <string name="lanzador3">Lanzador3</string>
+    <string name="rojito">Rojito</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_tools">Volver atras</string>
+
+
+    <!--  <string name="app_name_libro">PCLibros</string>-->
+
+    <string name="title_activity_mainLibro">Volver atras</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="sin_datos">Sin datos.</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="progress_cargando_datos">Cargando datos</string>
+    <string name="libro_titulo">Titulo</string>
+    <string name="libro_abreviatura">Abreviatura</string>
+    <string name="libro_paginas">Paginas</string>
+
+
+    <string name="tab_text_1">INFANTIL</string>
+
+
+    <string name="tab_text_3">SENIOR</string>
+
+    <string name="fragment1">Libros Infantiles</string>
+    <string name="fragment1Text">Libros Infantiles para niños de hasta 6 años, educativos.</string>
+    <string name="fragment2">Libros juveniles</string>
+    <string name="fragment2Text">Libros juveniles para niños de hasta 16 años, educativos.</string>
+    <string name="fragment3">Libros Adolescentes</string>
+    <string name="fragment3Text">Libros Adolescentes para niños de hasta 13 años, educativos.</string>
+    <string name="fragment4">Libros Senior</string>
+    <string name="fragment4Text">Libros Infantiles para niños de hasta 99 años, educativos.</string>
+    <string name="title_login">login</string>
+    <string name="title_register">registro</string>
+    <string name="title_activity_tab">TabActivity</string>
+
+
+    <string name="campo_requerido">Campo requerido, gracias.</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tab_text_2">JUVENIL</string>
+
+    <!--  <String del login>-->
+
+    <string name="app_name_login">Registro de Login</string>
+    <string name="text_accounts">Todos los usuarios</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirme contraseña</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Registro</string>
+    <string name="error_message_name">Nombre</string>
+    <string name="error_message_email">Correo </string>
+    <string name="error_message_age">Edad</string>
+    <string name="error_message_password">Contraseña</string>
+    <string name="success_message">Registratro realizado</string>
+    <string name="text_not_member">No tiene cuenta? Crear cuenta</string>
+    <string name="text_already_member">Tienes cuenta? Login</string>
+    <string name="error_email_exists">El correo ya existe</string>
+    <string name="error_password_match">Password no encontrada</string>
+    <string name="error_valid_email_password">Contraseña o correo erroneo</string>
+
+    <string name="text_hello">Hola bienvenido</string>
+    <string name="text_title">Liberia pdf</string>
+
+
+</resources>
