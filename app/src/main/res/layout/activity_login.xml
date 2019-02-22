@@ -16,11 +16,32 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Bienvenido"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:lineSpacingExtra="10sp"
+            android:text="BiliotecaPDF"
+            android:textColor="#ff7aff24"
+            android:textSize="35dp" />
+
         <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
             android:src="@drawable/logo" />
 
         <android.support.design.widget.TextInputLayout

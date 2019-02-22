@@ -15,9 +15,9 @@
 
     <!-- main_menu-->
     <string name="lanzador">Lanzador</string>
-    <string name="lanzador2">Lanzador2</string>
-    <string name="lanzador3">Lanzador3</string>
-    <string name="rojito">Rojito</string>
+
+
+
 
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -36,7 +36,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="progress_cargando_datos">Cargando datos</string>
     <string name="libro_titulo">Titulo</string>
-    <string name="libro_abreviatura">Abreviatura</string>
+
     <string name="libro_paginas">Paginas</string>
 
 
