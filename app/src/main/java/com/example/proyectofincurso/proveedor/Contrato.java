@@ -5,7 +5,7 @@ import android.provider.BaseColumns;
 
 public class Contrato {
 
-    public static final String AUTHORITY = "com.example.carlos.secondapp.proveedor.ProveedorDeContenido";
+    public static final String AUTHORITY = "com.example.proyectofincurso.proveedor.ProveedorDeContenido";
 
     public static final class Libro implements BaseColumns {
 

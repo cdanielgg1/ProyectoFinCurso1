@@ -51,6 +51,9 @@
         </activity>
 
 
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
 
 
 
@@ -60,9 +63,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+
 
         <activity
             android:name=".ToolsActivity"
@@ -77,12 +78,12 @@
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.carlos.secondapp.MainActivityLibro" />
+                android:value="com.example.proyectofincurso.MainActivityLibro" />
         </activity>
 
         <provider
             android:name=".proveedor.ProveedorDeContenido"
-            android:authorities="com.example.carlos.secondapp.proveedor.ProveedorDeContenido"
+            android:authorities="com.example.proyectofincurso.proveedor.ProveedorDeContenido"
             android:enabled="true"
             android:exported="true" >
             <meta-data

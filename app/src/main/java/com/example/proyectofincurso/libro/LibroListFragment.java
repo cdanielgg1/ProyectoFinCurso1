@@ -36,7 +36,7 @@ import java.io.FileNotFoundException;
 public class LibroListFragment extends ListFragment
 		implements LoaderManager.LoaderCallbacks<Cursor> {
 	
-	private static final String LOGTAG = "Tiburcio -  LibroListFragment";
+	//private static final String LOGTAG = "Tiburcio -  LibroListFragment";
 
 	LibroCursorAdapter mAdapter;
 	LoaderManager.LoaderCallbacks<Cursor> mCallbacks;

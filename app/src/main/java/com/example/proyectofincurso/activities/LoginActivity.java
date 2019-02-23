@@ -92,10 +92,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         switch (v.getId()) {
             case R.id.appCompatButtonLogin:
                 verifyFromSQLite();
-                //Luego de hacer el login... me envia directamente a la ventana principal
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
-                Toast.makeText(LoginActivity.this, "Felicidades, has entrado en la aplicacion", Toast.LENGTH_LONG).show();
+
 
                 break;
             case R.id.textViewLinkRegister:
@@ -129,6 +126,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             emptyInputEditText();
             startActivity(accountsIntent);
 
+            //Luego de hacer el login... me envia directamente a la ventana principal
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            Toast.makeText(LoginActivity.this, "Felicidades, has entrado en la aplicacion", Toast.LENGTH_LONG).show();
 
         } else {
             // Snack Bar to show success message that record is wrong

@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_manage) {
-            Toast.makeText(getApplicationContext(), " Has pulsado sobre Lista de usuariosc ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), " Has pulsado sobre Lista de usuarios ", Toast.LENGTH_SHORT).show();
 
             Intent intent = new Intent(getApplicationContext(), UsersListActivity.class);
             startActivity(intent);
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(),TabsActivity.class);
             startActivity(intent);
 
-            Toast.makeText(getApplicationContext(),"Has pulsado sobre la nube",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Has pulsado sobre categorias",Toast.LENGTH_SHORT).show();
 
         }
 
